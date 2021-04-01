@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Covid 19 Tracker V2 </title>
+      <link rel="icon" type="images/png" href="images/icon.png">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.2.0/css/ionicons.min.css"/>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+
+      <!--------------------------------------
+          Section Start From here 
+         
+      ---------------------------------------->
+      <nav class="navbar navbar-expand-md navbar-light">
+         <div class="container">
+            <a class="navbar-brand" href="">
+            <span>world</span><span>Ometer</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-nav">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#graph">Report</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#FAQ">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#news">News</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+      <!--------------------------------------
+         Home Section Start From here 
+         
+      ---------------------------------------->
+      <section id="home">
+         <div class="container">
+            <div class="row ">
+               <div class="col-lg-6 col-md-6 col-sm-12 col-12 main-home-text">
+                  <h1>Stay Home</h1>
+                  <h1>Stay <span>Safe</span>
+                  </h1>
+               </div>
+               <div class="col-lg-6 col-md-6 col-sm-12 col-12 main-bg-img">
+                  <img class="img-fluid" src="./images/icon.png" alt="">
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--------------------------------------
+         About Section Start From here 
+         
+      ---------------------------------------->
+      <section id="about">
+         <div class="container about-us">
+            <div class="row">
+               <div class="col-lg-6 col-md-12 col-12 aboout-bg-img">
+                  <img class="img-fluid" src="./images/img.png" alt="">
+               </div>
+               <div class="col-lg-6 col-md-12 col-12 about-texts">
+                  <span>About Corona Virus</span>
+                  <h1>Coronaviruses Are A Group Of Related Viruses</h1>
+                  <p>Coronaviruses (CoV) are a large family of viruse transmitting between animals and people that
+                     cause illness ranging from the common colds to more severe diseases such as Middle East
+                     respiratory syndromed (MERS-CoV) and severe syndrome (SARS-CoV).
+                  </p>
+                  <a href="#graph">Learn More</a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--------------------------------------
+         Graph Section Start From here 
+         
+      ---------------------------------------->
+      <section id="graph">
+         <div class="text-center title">
+            <p>Graphs</p>
+            <h4>Graphs about Daily New Cases and Deaths</h4>
+         </div>
+         <div class="container mt-5">
+         <div class="row">
+        <!-- Nav tabs right -->
+         <div class="col-12 col-lg-6 mb-4">
+            <div class="card">
+               <div class="card-header">
+                  <ul class="nav nav-tabs" id="chart1" role="tablist">
+                     <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#chart1A">daily</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#chart2A">linear</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#chart3A">logarithm</a>
+                     </li>
+                  </ul>
+               </div>
+                <!-- Tab panes -->
+               <div class="card-body text-center">
+                  <div class="tab-content mt-3">
+                     <div class="tab-pane active" id="chart1A">
+                        <h6 class="card-title text-center">Daily New Cases</h6>
+                        <img class="img-fluid" src="./images/chart1A.png" alt="">
+                     </div>
+                     <div class="tab-pane" id="chart2A">
+                        <h6 class="card-title text-center">Total Cases</h6>
+                        <img class="img-fluid" src="./images/chart2A.png" alt="">
+                     </div>
+                     <div class="tab-pane" id="chart3A">
+                        <h6 class="card-title text-center">Total Cases</h6>
+                        <img class="img-fluid" src="./images/chart3A.png" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Nav tabs left-->
+         <div class="col-12 col-lg-6">
+            <div class="card">
+               <div class="card-header">
+                  <ul class="nav nav-tabs" id="chart2" role="tablist">
+                     <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#chart1B">daily</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#chart2B">linear</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#chart3B">logarithm</a>
+                     </li>
+                  </ul>
+               </div>
+                <!-- Tab panes -->
+               <div class="card-body text-center">
+                  <div class="tab-content mt-3">
+                     <div class="tab-pane active" id="chart1B">
+                        <h6 class="card-title text-center">Daily Deaths</h6>
+                        <img class="img-fluid" src="./images/chart1B.png" alt="">
+                     </div>
+                     <div class="tab-pane" id="chart2B">
+                        <h6 class="card-title text-center">Total Deaths</h6>
+                        <img class="img-fluid" src="./images/chart2B.png" alt="">
+                     </div>
+                     <div class="tab-pane" id="chart3B">
+                        <h6 class="card-title text-center">Total Deaths</h6>
+                        <img class="img-fluid" src="./images/chart3B.png" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--------------------------------------
+         Map Section Start From here 
+         
+      ---------------------------------------->
+      <section id="maps">
+         <div class="text-center title maos">
+            <p>Statistics</p>
+            <h4>Corona Virus overview</h4>
+         </div>
+         <div class="container stat">
+            <div class="row">
+               <div class="col-lg-6 col-md-12 col-12 map-img">
+                  <img class="img-fluid center-block" src="./images/map.png" alt="">
+               </div>
+               <div class="col-lg-6 col-md-12 col-12">
+                  <div class="data-stats">
+                     <h1>Morocco</h1>
+                     <hr>
+                     <div class="flex-card">
+                        <div class="morocco">
+                           <h1>Confirmed</h1>
+                           <h2 id="conf-ma"></h2>
+                        </div>
+                        <div class="rev">
+                           <h1>Recovered</h1>
+                           <h2 id="recov-ma"></h2>
+                        </div>
+                        <div class="dea">
+                           <h1>Deaths
+                           </h1>
+                           <h2 id="death-ma"></h2>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="world">
+                     <h1>Worldwide</h1>
+                     <hr>
+                     <div class="flex-card">
+                        <div class="con">
+                           <h1>Confirmed</h1>
+                           <h2 id="globco"></h2>
+                        </div>
+                        <div class="rev">
+                           <h1>Recovered</h1>
+                           <h2 id="globro"></h2>
+                        </div>
+                        <div class="dea">
+                           <h1>Deaths
+                           </h1>
+                           <h2 id="globdo"></h2>
+                        </div>
+                     </div>
+                     <br>
+                     <br>
+                     <a href="#Tab">View All</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--------------------------------------
+         Tableau Section Start From here 
+         
+      ---------------------------------------->
+      <section id="Tab">
+         <div class="text-center title">
+            <p>Table</p>
+            <h4 class="text-center mb-3">Report coronavirus cases</h4>
+         </div>
+         <div class="container col-11 mt-5" >
+            <div class="tableFixHead">
+               <table class="table table-hover">
+                  <thead class="thead-dark">
+                     <tr>
+                        <th scope="col">Countries</th>
+                        <th scope="col">New Cases</th>
+                        <th scope="col">Total Cases</th>
+                        <th scope="col">New Deaths</th>
+                        <th scope="col">Total Deaths</th>
+                        <th scope="col">New Recovered</th>
+                        <th scope="col">Total Recovered</th>
+                     </tr>
+                  </thead>
+                  <tbody id="data">
+                  </tbody>
+               </table>
+            </div>
+         </div>
+      </section>
+
+      <!--------------------------------------
+         FAQ Section Start From here 
+         
+      ---------------------------------------->
+      <section id="FAQ">
+         <div class="text-center title">
+            <p>FAQ</p>
+            <h4>Frequently Asked Question about COVID-19</h4>
+         </div>
+         <div class="container mt-5">
+            <div class="row justify-content-center">
+               <div class="col-xl-10">
+                  <div class="card card-lg">
+                     <div class="accordion accordion-type-2 accordion-flush" id="accordion_2">
+                        <div class="card">
+                           <div class="card-header d-flex justify-content-between activestate">
+                              <a role="button" data-toggle="collapse" href="#collapse_1i" aria-expanded="true">How dangerous is the virus?</a>
+                           </div>
+                           <div id="collapse_1i" class="collapse" data-parent="#accordion_2" role="tabpanel">
+                              <div class="card-body pa-15">
+                                 <p>There are three parameters to understand in order to assess the magnitude of the risk posed by this novel coronavirus:<br><br>
+                                    <strong>Transmission Rate (Ro)</strong> - number of newly infected people from a single case<br>
+                                    <strong>Case Fatality Rate (CFR)</strong> - percent of cases that result in death<br>
+                                    Determine whether asymptomatic transmission is possible
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-header d-flex justify-content-between">
+                              <a class="collapsed" role="button" data-toggle="collapse" href="#collapse_2i" aria-expanded="false">How contagious is the Wuhan Coronavirus? (Ro)</a>
+                           </div>
+                           <div id="collapse_2i" class="collapse" data-parent="#accordion_2">
+                              <div class="card-body pa-15">
+                                 <p>The attack rate or transmissibility (how rapidly the disease spreads) of a virus is indicated by its reproductive number (Ro, pronounced R-nought or r-zero), which represents the average number of people to which a single infected person will transmit the virus.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-header d-flex justify-content-between">
+                              <a class="collapsed" role="button" data-toggle="collapse" href="#collapse_3i" aria-expanded="false">Age and conditions of Coronavirus cases</a>
+                           </div>
+                           <div id="collapse_3i" class="collapse" data-parent="#accordion_2">
+                              <div class="card-body pa-15">A Governing Law will inform users which laws govern the agreement. This should the country in which your company is headquartered or the country from which you operate your website and mobile app.</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--------------------------------------
+         News Section Start From here 
+         
+      ----------------------------------------> 
+      <section id="news">
+         <div class="container">
+            <div class="text-center title">
+               <p>News</p>
+               <h4>Last News about Covid-19</h4>
+            </div>
+            <!-- Nav tabs -->
+            <div class="container mt-5">
+               <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item">
+                     <a class="nav-link active" data-toggle="tab" href="#tab1">April 27</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" data-toggle="tab" href="#tab2">April 20</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" data-toggle="tab" href="#tab3">May 8</a>
+                  </li>
+               </ul>
+               <!-- Tab panes -->
+               <div class="tab-content">
+                  <div id="tab1" class="container tab-pane active">
+                     <br>
+                     <h3>Updates</h3>
+                     <br>
+                     <ul>
+                        <li>    
+                           WHO: "no evidence that people who have recovered from COVID-19 and have antibodies are protected from a second infection" <span> [<a href="">source</a>]</span> 
+                        </li>
+                        <li>    
+                           USA: 15,400 excess deaths (compared to the year 2019) were recorded in March through April 4, 2020. During the same period, 8,128 coronavirus deaths were reported. 
+                           The difference is <strong>7,272 deaths (89% more)</strong><a href=""></a><span> [<a href="">source</a>]</span>
+                        </li>
+                        <li>
+                           NHS England alerts that in the “last three weeks, there has been an apparent rise in the number of children of all ages presenting with a multi-system inflammatory state requiring intensive care" <a href=""></a>
+                           <span>
+                              [<a href="">source
+                              <a>
+                                 ]
+                           </span>
+                        </li>
+                     </ul>
+                  </div>
+                  <div id="tab2" class="container tab-pane fade"><br>
+                  <h3>Updates</h3><br>
+                  <ul>
+                  <li> 22,258 new cases and 205 new deaths in <a href=""><span><strong>Germany</strong></span></a><span> [<a href="">source</a>]</span></li>
+                  <li> 661 new cases and 48 new deaths in <a href=""><span><strong>Egybt</strong></span></a><span> [<a href="">source</a>]</span></li>
+                  <li> 105 new cases and 2 new deaths in <a href=""><span><strong>Algeria</strong></span></a><span> [<a href="">source</a>]</span></li>  
+                  </ul>
+                  </div>
+                  <div id="tab3" class="container tab-pane fade">
+                     <br>
+                     <h3>Updates</h3>
+                     <br>
+                     <ul>
+                        The Future of the COVID-19 Pandemic: Lessons Learned from Pandemic Influenza, by Moore, Lipsitch, Barry, Osterholm - COVID-19: The CIDRAP Viewpoint, April 30, 2020: /
+                        <li>
+                           The length of the pandemic will likely be 18 to 24 months <a href=""><span style="text-decoration: underline;"><strong></strong></span></a><span> [<a href="">source</a>]</span> 
+                        </li>
+                        <li>
+                           Given the transmissibility of SARS-CoV-2, 60% to 70% of the population may need to be immune to reach a critical threshold of herd immunity to halt the pandemic <a href=""><span style="text-decoration: underline;"><strong></strong></span></a><span> [<a href="">source</a>]</span>     
+                        </li>
+                        <li>
+                           This may be complicated by the fact that we don’t yet know the duration of immunity to natural SARS-CoV-2 infection. <a href=""><span style="text-decoration: underline;"><strong></strong></span></a><span> [<a href="">source</a>]</span>     
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-----------------------------------
+         Source Section Start From here 
+         
+      ---------------------------------------->  
+      <section id="source">
+         <div class="text-center title">
+            <p>Source</p>
+            <h4>Top Source Organization</h4>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="spread-card col-lg-4 col-md-4 col-sm-4 col-12">
+                  <img class="img-fluid" src="./images/who.jpg" alt="">
+               </div>
+               <div class="spread-card col-lg-4 col-md-4 col-sm-4 col-12">
+                  <img  class="img-fluid"src="./images/aljazera.jpg" alt="">
+               </div>
+               <div class="spread-card col-lg-4 col-md-4 col-sm-4 col-12">
+                  <img class="img-fluid" src="./images/cdc.png" alt="">
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--------------------------------------
+         Footer Section Start From here 
+           
+         ---------------------------------------->
+      <section id="footer">
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12 col-lg-6">
+                     <div class="site-info">
+                        <h2><span>world</span><span>Ometer</span></h2>
+                        <p>
+                           Worldmeter est un site web qui calcule en temps réel, sur la base de plusieurs algorithmes, 
+                           des données relatives à la population mondiale, du gouvernement et de l'économie,
+                           l'environnement, l'alimentation, l'eau, l'énergie et la santé.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-6 text-center text-sm-left">
+                     &copy; Copyright Worldometers
+                  </div>
+                  <div class="col-sm-6 text-center text-sm-right">
+                     <ul class="list-unstyled">
+                        <li>
+                           <a href="#"><i class="bi bi-newspaper"></i></a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="bi bi-twitter"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+   </body>
+   <script src="main.js"></script>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>
+

@@ -1,0 +1,394 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Quicksand", sans-serif;
+	scroll-behavior: smooth;
+}
+
+#home,
+#graph,
+#maps,
+#Tab,
+#FAQ,
+#news,
+#source {
+	margin-top: 100px;
+}
+
+.title p {
+	color: #31936b;
+	position: relative;
+}
+
+.title h4 {
+	color: #013354;
+	font-weight: 700;
+}
+
+
+/* Start Section navbar */
+
+.navbar-brand>span {
+	font-size: 25px;
+}
+
+.navbar-brand span:first-child {
+	color: #08526d;
+	font-weight: bold;
+}
+
+.navbar-brand span:last-child {
+	color: #31936b;
+}
+
+.navbar-nav .active>.nav-link {
+	color: #31936b !important
+}
+
+.navbar .navbar-brand {
+	padding: 10px 20px;
+	color: black;
+}
+
+.navbar .nav-item {
+	padding: 10px 10px;
+}
+
+
+/* End Section navbar */
+
+
+/* Start Section home */
+
+.main-bg-img {
+	padding: 0 50px;
+}
+
+.main-bg-img img {
+	display: block;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	animation: rotation 10s linear infinite;
+}
+
+
+/* rotation image */
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+.main-home-text h1 {
+	color: #013354;
+	font-size: 50px;
+	padding: 2px 5px;
+	font-weight: 600;
+}
+
+.main-home-text h1 span {
+	color: #31936b;
+}
+
+.main-home-text h1:nth-child(2) {
+	margin-bottom: 30px;
+}
+
+
+/* End Section home */
+
+
+/* Start Section about */
+
+.about-us {
+	margin-top: 100px;
+}
+
+.map-img img {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: block;
+}
+
+.about-texts span {
+	color: #31936b;
+	font-weight: 700;
+	position: relative;
+}
+
+.about-texts h1 {
+	margin-top: 10px;
+	color: #013354;
+	font-size: 30px;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+.about-texts p {
+	margin-bottom: 30px;
+}
+
+.about-texts a {
+	padding: 10px 20px;
+	background-color: #31936b;
+	border-radius: 50px;
+	margin-right: 50px;
+	color: white;
+	text-decoration: none;
+}
+
+
+/* End Section about */
+
+
+/* Start Section Map */
+
+.world a {
+	padding: 5px 25px;
+	background-color: #31936b;
+	border-radius: 50px;
+	font-weight: 700;
+	transition: 0.4s ease-in-out;
+	color: white;
+	text-decoration: none;
+}
+
+.world a:hover {
+	color: #31936b;
+	background-color: black;
+}
+
+.spread-card {
+	padding: 50px;
+}
+
+.flex-card {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-card h1 {
+	color: #414141;
+	font-size: 18px;
+}
+
+.flex-card h2 {
+	color: #000;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.flex-card .rev h2 {
+	color: #31936b;
+	font-weight: 700;
+}
+
+.flex-card .dea h2 {
+	color: red;
+	font-weight: 700;
+}
+
+.maos h4 {
+	margin-bottom: 60px;
+}
+
+.data-stats h1,
+.world h1 {
+	font-size: 25px;
+	color: #013354;
+	font-weight: 700;
+}
+
+.world {
+	margin-top: 50px;
+}
+
+
+/* End Section Map */
+
+
+/* Start Section Tab */
+
+
+/*pour fixer l'entete du tableau*/
+
+.tableFixHead {
+	overflow-y: auto;
+	height: 650px;
+}
+
+.tableFixHead thead th {
+	position: sticky;
+	top: 0;
+}
+
+
+/* End Section Tab */
+
+
+/* Start FAQ*/
+
+.card.card-lg .card-header,
+.card.card-lg .card-footer {
+	padding: .9rem 1.5rem;
+}
+
+.accordion>.card .card-header {
+	margin-bottom: -1px;
+}
+
+.card .card-header {
+	background: transparent;
+	border: none;
+}
+
+.accordion.accordion-type-2 .card .card-header>a.collapsed {
+	color: #324148;
+}
+
+.accordion .card:first-of-type .card-header:first-child>a {
+	border-top-left-radius: calc(.25rem - 1px);
+	border-top-right-radius: calc(.25rem - 1px);
+}
+
+.accordion.accordion-type-2 .card .card-header>a {
+	background: transparent;
+	color: #013354;
+	padding-left: 50px;
+}
+
+.accordion .card .card-header>a.collapsed {
+	color: #324148;
+	background: transparent;
+}
+
+.accordion .card .card-header>a {
+	background: #00acf0;
+	color: #fff;
+	font-weight: 500;
+	padding: .75rem 1.25rem;
+	display: block;
+	width: 100%;
+	text-align: left;
+	position: relative;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+a {
+	text-decoration: none;
+	color: #00acf0;
+	-webkit-transition: color 0.2s ease;
+	-moz-transition: color 0.2s ease;
+	transition: color 0.2s ease;
+}
+
+.accordion.accordion-type-2 .card .card-header>a.collapsed:after {
+	content: "\f158";
+}
+
+.accordion.accordion-type-2 .card .card-header>a::after {
+	display: inline-block;
+	font: normal normal normal 14px/1 'Ionicons';
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: auto;
+	position: absolute;
+	content: "\f176";
+	font-size: 21px;
+	top: 15px;
+	left: 20px;
+}
+
+
+/* End FAQ*/
+
+
+/* Start Footer */
+
+#footer {
+	border-top: 1px solid #c0c0c0;
+	padding: 50px 0px 50px;
+	margin-top: 50px;
+}
+
+.footer .site-info h2 {
+	font-size: 50px;
+	margin-bottom: 35px;
+}
+
+.footer .site-info h2 span:first-child {
+	color: #08526d;
+	font-weight: bold;
+}
+
+.footer .site-info h2 span:last-child {
+	color: #31936b;
+}
+
+.footer .site-info p {
+	line-height: 1.8;
+	color: #727272;
+}
+
+.copyright {
+	border-top: 1px solid #c0c0c0;
+	padding: 20px;
+}
+
+.copyright ul {
+	margin: 0
+}
+
+.copyright ul li {
+	display: inline-block;
+}
+
+.copyright ul li a {
+	color: #777;
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 18px;
+}
+
+
+/* End Footer */
+
+
+/* Media Queries */
+
+@media (max-width: 576px) {
+	.main-bg-img img {
+		max-width: 80%;
+	}
+	.spread-card img {
+		width: 50%;
+		margin: 0 auto;
+		display: block;
+	}
+}
+
+@media (max-width: 1080px) {
+	.tableFixHead {
+		font-size: 12px;
+	}
+	.stat h1,
+	.stat h2 {
+		font-size: 110%;
+	}
+}
+
+
+/* End Media Queries */
